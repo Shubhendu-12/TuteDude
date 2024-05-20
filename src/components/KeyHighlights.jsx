@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/KeyHighlights.css';
 
-const InternshipProgram = () => {
+const KeyHighlights = () => {
   return (
     <div className="internship-container">
       <h2>Key Highlights</h2>
@@ -28,4 +28,4 @@ const InternshipProgram = () => {
   );
 };
 
-export default InternshipProgram;
+export default KeyHighlights;

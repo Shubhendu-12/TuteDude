@@ -4,6 +4,8 @@ import HiringCompanies from './components/HiringCompanies'
 import Curriculum from './components/Curriculum'
 import RefundOffer from './components/RefundOffer'
 import Header from './components/Header'
+import DataScienceBundle from './components/DataScienceBundle'
+import KeyHighlights from './components/KeyHighlights'
 
 const App = () => {
   return (
@@ -15,9 +17,10 @@ const App = () => {
         <RefundOffer/>
         <HiringCompanies />
         <CertificatesInternships />
+        <DataScienceBundle/>
       </main>
       <footer>
-        {/* Add footer content here */}
+        <KeyHighlights/>
       </footer>
     </div> 
     </>
