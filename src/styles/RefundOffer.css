@@ -1,0 +1,63 @@
+/* styles/RefundOffer.css */
+.refund-offer {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .offer-countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .offer-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+  
+  .offer-button button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .offer-steps {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .step {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .step h3 {
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    margin: 5px 0;
+  }
+  
+  .step-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #e6e6e6;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-weight: bold;
+  }
